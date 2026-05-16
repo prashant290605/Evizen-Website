@@ -24,7 +24,7 @@ export default function Contact() {
     );
     
     // Open default email client
-    window.location.href = `mailto:prashant@evizenai.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:contact@evizenai.com?subject=${subject}&body=${body}`;
     
     setIsSubmitted(true);
     setTimeout(() => {
@@ -103,10 +103,10 @@ export default function Contact() {
                 Prefer email? Reach out directly to discuss your project
               </p>
               <a
-                href="mailto:prashant@evizenai.com"
+                href="mailto:contact@evizenai.com"
                 className="text-white hover:text-neutral-300 transition-colors font-medium inline-block hover:translate-x-1 duration-300"
               >
-                prashant@evizenai.com
+                contact@evizenai.com
               </a>
             </div>
           </div>
@@ -222,3 +222,4 @@ export default function Contact() {
     </section>
   );
 }
+
