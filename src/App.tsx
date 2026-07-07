@@ -9,19 +9,19 @@ import { useScrollReveal } from './hooks/useScrollReveal';
 
 const metaByPath: Record<string, { title: string; description: string }> = {
   '/': {
-    title: 'Evizen AI - AI Systems for Operationally Complex Environments',
+    title: 'Evizen AI — AI systems for operations that can’t afford to fail',
     description:
-      'Evizen AI designs and builds production-grade automation, predictive analytics, and operational intelligence systems for power, academic, and enterprise workflows.',
+      'Evizen AI builds production-grade AI — predictive maintenance, workflow automation, and operational intelligence. Live with Tata Power. Launching at IIT Ropar.',
   },
   '/thermal-eye': {
-    title: 'Thermal Eye - Predictive Maintenance for Transmission Infrastructure',
+    title: 'Thermal Eye — See the failure before it happens',
     description:
-      'Thermal Eye helps power teams identify early thermal anomalies across 110kV and 220kV transmission infrastructure and support proactive maintenance workflows.',
+      'Predictive thermal intelligence for the grid. Thermal Eye reads temperature from inspection imagery and forecasts which transmission asset fails next. Live on Tata Power infrastructure.',
   },
   '/unilic': {
-    title: 'Unilic - Academic Operational Infrastructure',
+    title: 'Unilic — The proxy-proof classroom',
     description:
-      'Unilic brings attendance, coursework, grading, communication, and faculty workflows into one mobile-first operational platform for institutions.',
+      'Unilic marks a whole class present in under 20 seconds, makes proxy attendance impossible with four-layer verification, and keeps grading audit-ready. Built at IIT Ropar.',
   },
 };
 
